@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-mika",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic estructure of PW1 made whit MongoDB, ExpressJS, AngularJS and NodeJS, whit ES6 and basic OOP",
   "homepage": "https://github.com/ProyectoFenix/generator-angular-mika#README.md",
   "author": {
