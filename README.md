@@ -1,13 +1,32 @@
 # generator-angular-mika [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> Arquitectura basica de AngularJS
+>  Basic estructure of AngularJS
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-angular-mika using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io), generator-angular-mika, [GulpJS](https://gulpjs.com/), [Browser-sycn](https://browsersync.io/) and [Nodemon](https://nodemon.io/) using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+
+Command to install [Yeoman](http://yeoman.io) and generator-angular-mika
 
 ```bash
 npm install -g yo
 npm install -g generator-angular-mika
+```
+
+Command to install [GulpJS](https://gulpjs.com/)
+
+```bach
+npm install gulp gulp-cli -g
+```
+
+Command to install [Nodemon](https://nodemon.io/)
+
+```
+npm install nodemon -g
+```
+Command to install [Browser-sycn](https://browsersync.io/)
+
+```
+npm install -g browser-sync
 ```
 
 Then generate your new project:
@@ -16,12 +35,30 @@ Then generate your new project:
 yo angular-mika
 ```
 
-## Getting To Know Yeoman
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+### Open your project
+
+To open the project generated, the following steps must be followed
+
+All dependencies must be installed with the command
+
+```bash
+npm install
+```
+
+Once the installation process is finished, the task is called
+
+```bash
+gulp
+```
+
+And to finish, automatically, the task opens browser within a localhost:3000
+
+
+## Authors
+
+* [Kevin Aguilar (Front-end and fixes to Back-end)](https://github.com/KaguilarA)
+* [Pabs Monestel (Back-end structure)](https://github.com/pabskun)
 
 ## License
 

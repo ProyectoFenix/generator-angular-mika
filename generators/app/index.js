@@ -5,7 +5,6 @@ const yosay = require('yosay');
 
 module.exports = class extends Generator {
   prompting() {
-    // Have Yeoman greet the user.
     this.log(
       yosay(`Este es el ${chalk.red('generator-angular-mika')} `)
     );
@@ -34,6 +33,12 @@ module.exports = class extends Generator {
         name: 'aplicationVersion',
         message: 'Ingrese el número de la versión del proyecto',
         default: '0.0.0'
+      },
+      {
+        type: 'input',
+        name: 'dataBaseUrl',
+        message: 'Ingrese el url de la base de datos de mlab',
+        default: 'mongodb://localhost:27017'
       }
     ];
 
@@ -55,10 +60,9 @@ module.exports = class extends Generator {
   }
 
   install() {
-    this.installDependencies({
-      bower: false,
-      npm: true
-    }).then(() => console.log('Dependncias instaladas correctamente'));
+
+    this.installDependencies(
+    ).then(() => console.log('Dependncias instaladas correctamente'));
   }
   
 };
