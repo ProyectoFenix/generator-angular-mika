@@ -62,7 +62,7 @@ And to finish, automatically, the task opens browser within a localhost:3000
 
 ## License
 
-MIT © [Kevin Aguilar]()
+MIT © [Kevin Aguilar](https://twitter.com/kaguilara_)
 
 
 [npm-image]: https://badge.fury.io/js/generator-angular-mika.svg
